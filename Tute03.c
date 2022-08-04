@@ -19,7 +19,8 @@ int main()
     printf("Enter a Number: ");
     scanf("%d", &n);
 
-    for (i = 1; i <= n; ++i) {
+    for (i = 1; i <= n; ++i) 
+    {
         sum += i;
     }
 
